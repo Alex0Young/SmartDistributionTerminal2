@@ -18,13 +18,27 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.chatuidemo.DemoHelper;
 import com.hyphenate.chatuidemo.R;
 import com.hyphenate.exceptions.HyphenateException;
+import com.mob.MobSDK;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import cn.smssdk.EventHandler;
+import cn.smssdk.SMSSDK;
 
 /**
  * register screen
@@ -34,6 +48,9 @@ public class RegisterActivity extends BaseActivity {
 	private EditText userNameEditText;
 	private EditText passwordEditText;
 	private EditText confirmPwdEditText;
+	private EditText confirmCode;
+	private String phone;
+	public final static String PHONE_PATTERN = "^((13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -42,12 +59,110 @@ public class RegisterActivity extends BaseActivity {
 		userNameEditText = (EditText) findViewById(R.id.username);
 		passwordEditText = (EditText) findViewById(R.id.password);
 		confirmPwdEditText = (EditText) findViewById(R.id.confirm_password);
+		confirmCode = (EditText) findViewById(R.id.insert_code);
+
+		findViewById(R.id.confirm_code).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				phone = userNameEditText.getText().toString().trim();
+
+				//获取验证码
+				if (TextUtils.isEmpty(phone))
+					Toast.makeText(RegisterActivity.this,"号码不能为空",Toast.LENGTH_SHORT).show();
+
+				Log.i("1234",phone.toString());
+				SMSSDK.getVerificationCode("86",phone);
+			}
+		});
+
+		EventHandler handler = new EventHandler() {
+			@Override
+			public void afterEvent(int event, int result, Object data) {
+
+				if (result == SMSSDK.RESULT_COMPLETE) {
+					//回调完成
+					if (event == SMSSDK.EVENT_SUBMIT_VERIFICATION_CODE) {
+						//提交验证码成功
+
+
+						runOnUiThread(new Runnable() {
+							@Override
+							public void run() {
+								Toast.makeText(RegisterActivity.this, "验证成功", Toast.LENGTH_SHORT).show();
+							}
+						});
+						return ;
+
+					} else if (event == SMSSDK.EVENT_GET_VOICE_VERIFICATION_CODE) {
+						runOnUiThread(new Runnable() {
+							@Override
+							public void run() {
+								Toast.makeText(RegisterActivity.this, "语音验证发送", Toast.LENGTH_SHORT).show();
+							}
+						});
+					} else if (event == SMSSDK.EVENT_GET_VERIFICATION_CODE) {
+						//获取验证码成功
+						runOnUiThread(new Runnable() {
+							@Override
+							public void run() {
+								Toast.makeText(RegisterActivity.this, "验证码已发送", Toast.LENGTH_SHORT).show();
+							}
+						});
+					} else if (event == SMSSDK.EVENT_GET_SUPPORTED_COUNTRIES) {
+						Log.i("test", "test");
+
+					}else if(event == SMSSDK.RESULT_ERROR){
+						runOnUiThread(new Runnable() {
+							@Override
+							public void run() {
+								Toast.makeText(RegisterActivity.this, "验证码错误", Toast.LENGTH_SHORT).show();
+							}
+						});
+					}
+				} else {
+					((Throwable) data).printStackTrace();
+					Throwable throwable = (Throwable) data;
+					throwable.printStackTrace();
+					Log.i("1234", throwable.toString());
+					try {
+						JSONObject obj = new JSONObject(throwable.getMessage());
+						final String des = obj.optString("detail");
+						if (!TextUtils.isEmpty(des)) {
+							runOnUiThread(new Runnable() {
+								@Override
+								public void run() {
+									Toast.makeText(RegisterActivity.this, des, Toast.LENGTH_SHORT).show();
+								}
+							});
+						}
+					} catch (JSONException e) {
+						e.printStackTrace();
+					}
+
+				}
+			}
+		};
+
+		SMSSDK.registerEventHandler(handler);
+	}
+
+	public static boolean isPhoneNumber(String patternStr,CharSequence input){
+		Pattern pattern = Pattern.compile(patternStr);
+		Matcher matcher = pattern.matcher(input);
+
+		if(matcher.find()){
+			return true;
+		}
+		else{
+			return false;
+		}
 	}
 
 	public void register(View view) {
 		final String username = userNameEditText.getText().toString().trim();
 		final String pwd = passwordEditText.getText().toString().trim();
 		String confirm_pwd = confirmPwdEditText.getText().toString().trim();
+		final String confirm_code = confirmCode.getText().toString().trim();
 		if (TextUtils.isEmpty(username)) {
 			Toast.makeText(this, getResources().getString(R.string.User_name_cannot_be_empty), Toast.LENGTH_SHORT).show();
 			userNameEditText.requestFocus();
@@ -60,10 +175,18 @@ public class RegisterActivity extends BaseActivity {
 			Toast.makeText(this, getResources().getString(R.string.Confirm_password_cannot_be_empty), Toast.LENGTH_SHORT).show();
 			confirmPwdEditText.requestFocus();
 			return;
+		} else if (TextUtils.isEmpty(confirm_code)) {
+			Toast.makeText(this, getResources().getString(R.string.Confirm_code_cannot_be_empty), Toast.LENGTH_SHORT).show();
+			confirmCode.requestFocus();
+			return;
 		} else if (!pwd.equals(confirm_pwd)) {
 			Toast.makeText(this, getResources().getString(R.string.Two_input_password), Toast.LENGTH_SHORT).show();
 			return;
+		}else if(!isPhoneNumber(PHONE_PATTERN,username)){
+			Toast.makeText(this, getResources().getString(R.string.not_phone_number), Toast.LENGTH_SHORT).show();
+			return;
 		}
+		SMSSDK.submitVerificationCode("86",phone,confirm_code);
 
 		if (!TextUtils.isEmpty(username) && !TextUtils.isEmpty(pwd)) {
 			final ProgressDialog pd = new ProgressDialog(this);
@@ -115,6 +238,11 @@ public class RegisterActivity extends BaseActivity {
 
 	public void back(View view) {
 		finish();
+	}
+
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
 	}
 
 }

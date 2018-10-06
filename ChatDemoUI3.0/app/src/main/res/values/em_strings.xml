@@ -3,13 +3,15 @@
     
     <string name="app_name">快互通</string>
     <string name="app_slogon">享受智能物流</string>
-    <string name="text_ack_msg">Read</string>
-    <string name="text_delivered_msg">Delivered</string>
+    <string name="get_code">获取验证码</string>
+    <string name="text_ack_msg">已读</string>
+    <string name="text_delivered_msg">送达</string>
+    <string name="not_phone_number">电话格式不正确</string>
     <string name="back">返回</string>
     <string name="save">保存</string>
-    <string name="button_pushtotalk">Hold to talk</string>
+    <string name="button_pushtotalk">按住说话</string>
     <string name="button_send">发送</string>
-    <string name="attach_smile">Emoticon</string>
+    <string name="attach_smile">表情</string>
     <string name="attach_picture">图片</string>
     <string name="attach_take_pic">拍照</string>
     <string name="attach_location">位置</string>
@@ -137,11 +139,11 @@
     <string name="Group_of_Lord">The group owner</string>
     <string name="Introduction">Brief</string>
     <string name="To_join_the_chat">Join the group</string>
-    <string name="login">Login</string>
-    <string name="user_name">用户名</string>
-    <string name="password">Password</string>
-    <string name="register">Register</string>
-    <string name="confirmpassword">Confirm password</string>
+    <string name="login">登录</string>
+    <string name="user_name">手机号</string>
+    <string name="password">密码</string>
+    <string name="register">注册</string>
+    <string name="confirmpassword">确认密码</string>
     <string name="downwaiting">Downloading the file, please wait a moment</string>
     <string name="mute">Mute</string>
     <string name="Hands_free">Handsfree</string>
@@ -261,6 +263,7 @@
     <string name="Whether_to_send">Are you sure to send?</string>
     <string name="Open_the_equipment_failure">Open the equipment failure!</string>
     <string name="Confirm_password_cannot_be_empty">Confirm password cannot be empty!</string>
+    <string name="Confirm_code_cannot_be_empty">验证码不为空!</string>
     <string name="Two_input_password">Inconsistent password, please enter again!</string>
     <string name="Is_the_registered">Registering..</string>
     <string name="Registered_successfully">Registered successfully</string>

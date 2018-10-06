@@ -1,0 +1,1192 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-441:12
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-441:12
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-441:12
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-441:12
+MERGED from [:easeui] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\easeui\easeui\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\298258fca981212120fad45f3d94afa4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.0.aar\2d66cde7d11cd4bfaa82086699b22253\AndroidManifest.xml:16:1-30:12
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\8ff6bdb7b926f8bdd1598a43e267044d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\9e6f0edb01da220621f0f85227dbaa40\AndroidManifest.xml:2:1-9:12
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-96:12
+MERGED from [com.google.firebase:firebase-core:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.0.aar\e475ef0dc6a3dded07730eb77e95a7e2\AndroidManifest.xml:2:1-6:12
+MERGED from [cn.smssdk:SMSSDK:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\SMSSDK-3.2.1.1.aar\da84e300a0aa9fbc0792e84f469c669a\AndroidManifest.xml:2:1-11:12
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\ShortMessageSDKGUI-3.2.1.1.aar\0cbecee9d27037834ed8acd498c406dc\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:16:1-21:12
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\c9a008ae065602348209b878b33bb429\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\22f6f74faed79a72a07a13ec75aa98de\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\004dc1732def9d5dab6e5f8255d4382a\AndroidManifest.xml:16:1-23:12
+MERGED from [com.huawei.android.hms:push:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\push-2.6.0.301.aar\9d29fce60b6f215b785cd4c650807947\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\587fa2e97d9f95c35ef5206807a14aee\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c498dcfb218b2260b377b583947c107\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\46a3bf87bee01cf216cf6f7c0e108f94\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f03b27ad88d3f31e7d0379c3dba9d9fa\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\67d605fd7e0c5e37c641c53bc46a1ad3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ea65133f5b238aa610ae7a4a5c7aa733\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\f7b0b13c71212ff3ef1e9f781cd2a862\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\69b6b9b8dc2c6a4c74d3578459096c7a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-441:12
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-441:12
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-441:12
+	package
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:6:5-32
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-67
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:10:22-68
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-79
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:14:5-81
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-81
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:18:5-76
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-76
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:20:5-68
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:22:5-75
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-75
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:24:5-85
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:24:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:26:5-95
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:26:22-92
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:28:5-78
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:28:22-75
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:31:5-68
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:31:22-65
+permission#com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:34:5-36:55
+	android:protectionLevel
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:36:9-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:35:9-74
+uses-permission#com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:38:5-90
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:38:22-87
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:39:5-80
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:39:22-77
+application
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:41:5-439:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.0.aar\2d66cde7d11cd4bfaa82086699b22253\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.0.aar\2d66cde7d11cd4bfaa82086699b22253\AndroidManifest.xml:19:5-29:19
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-94:19
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-94:19
+MERGED from [com.google.firebase:firebase-core:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.0.aar\e475ef0dc6a3dded07730eb77e95a7e2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.0.aar\e475ef0dc6a3dded07730eb77e95a7e2\AndroidManifest.xml:5:5-20
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\ShortMessageSDKGUI-3.2.1.1.aar\0cbecee9d27037834ed8acd498c406dc\AndroidManifest.xml:13:5-14:19
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\ShortMessageSDKGUI-3.2.1.1.aar\0cbecee9d27037834ed8acd498c406dc\AndroidManifest.xml:13:5-14:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\c9a008ae065602348209b878b33bb429\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\c9a008ae065602348209b878b33bb429\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\22f6f74faed79a72a07a13ec75aa98de\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\22f6f74faed79a72a07a13ec75aa98de\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\004dc1732def9d5dab6e5f8255d4382a\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\004dc1732def9d5dab6e5f8255d4382a\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\587fa2e97d9f95c35ef5206807a14aee\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\587fa2e97d9f95c35ef5206807a14aee\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c498dcfb218b2260b377b583947c107\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c498dcfb218b2260b377b583947c107\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\46a3bf87bee01cf216cf6f7c0e108f94\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\46a3bf87bee01cf216cf6f7c0e108f94\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f03b27ad88d3f31e7d0379c3dba9d9fa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f03b27ad88d3f31e7d0379c3dba9d9fa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\67d605fd7e0c5e37c641c53bc46a1ad3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\67d605fd7e0c5e37c641c53bc46a1ad3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ea65133f5b238aa610ae7a4a5c7aa733\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ea65133f5b238aa610ae7a4a5c7aa733\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\f7b0b13c71212ff3ef1e9f781cd2a862\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\f7b0b13c71212ff3ef1e9f781cd2a862\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\69b6b9b8dc2c6a4c74d3578459096c7a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\69b6b9b8dc2c6a4c74d3578459096c7a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:9:5-21:19
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:9:5-21:19
+	android:label
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:45:9-41
+	android:icon
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:44:9-48
+	android:allowBackup
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:43:9-35
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:42:9-40
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:48:9-56:20
+	android:grantUriPermissions
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:51:13-47
+	android:authorities
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:50:13-72
+	android:exported
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:49:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:53:13-55:54
+	android:resource
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:55:17-51
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:54:17-67
+activity#com.hyphenate.chatuidemo.ui.MainActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:58:9-63:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:61:13-49
+	android:launchMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:60:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:63:13-52
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:62:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:59:13-44
+activity#com.hyphenate.chatuidemo.ui.SplashActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:66:9-75:20
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:68:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:69:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:67:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:70:13-74:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:73:17-77
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:73:27-74
+activity#com.hyphenate.chatuidemo.ui.LoginActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:78:9-82:71
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:80:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:82:13-68
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:81:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:79:13-45
+activity#com.hyphenate.chatuidemo.ui.ServiceCheckActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:85:9-89:71
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:87:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:89:13-68
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:88:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:86:13-52
+activity#com.hyphenate.chatuidemo.ui.RegisterActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:92:9-96:71
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:94:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:96:13-68
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:95:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:93:13-48
+activity#com.hyphenate.chatuidemo.ui.ChatActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:98:9-103:58
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:101:13-49
+	android:launchMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:100:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:103:13-55
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:102:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:99:13-44
+activity#com.hyphenate.chatuidemo.ui.AddContactActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:105:9-109:58
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:107:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:109:13-55
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:108:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:106:13-50
+activity#com.hyphenate.chatuidemo.ui.GroupDetailsActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:111:9-114:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:113:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:114:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:112:13-52
+activity#com.hyphenate.chatuidemo.ui.GroupsActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:116:9-120:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:118:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:120:13-52
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:119:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:117:13-46
+activity#com.hyphenate.chatuidemo.ui.ChatRoomDetailsActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:123:9-126:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:125:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:126:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:124:13-55
+activity#com.hyphenate.chatuidemo.ui.NewChatRoomActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:128:9-132:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:130:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:132:13-52
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:131:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:129:13-51
+activity#com.hyphenate.chatuidemo.ui.NewGroupActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:135:9-139:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:137:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:139:13-52
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:138:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:136:13-48
+activity#com.hyphenate.chatuidemo.ui.ExitGroupDialog
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:141:9-144:58
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:143:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:144:13-55
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:142:13-47
+activity#com.hyphenate.chatuidemo.ui.GroupPickContactsActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:146:9-150:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:148:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:150:13-52
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:149:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:147:13-57
+activity#com.hyphenate.chatuidemo.ui.PickAtUserActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:151:9-154:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:153:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:154:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:152:13-50
+activity#com.hyphenate.easeui.ui.EaseBaiduMapActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:156:9-159:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:158:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:159:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:157:13-72
+activity#com.hyphenate.chatuidemo.ui.NewFriendsMsgActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:162:9-165:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:164:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:165:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:163:13-53
+activity#com.hyphenate.chatuidemo.ui.ForwardMessageActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:167:9-171:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:169:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:171:13-52
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:170:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:168:13-54
+activity#com.hyphenate.chatuidemo.ui.ContextMenuActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:173:9-176:52
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:175:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:176:13-49
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:174:13-51
+activity#com.hyphenate.easeui.ui.EaseShowBigImageActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:178:9-181:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:180:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:181:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:179:13-76
+activity#com.hyphenate.easeui.ui.EaseShowNormalFileActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:183:9-186:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:185:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:186:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:184:13-78
+activity#com.hyphenate.chatuidemo.ui.BlacklistActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:188:9-191:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:190:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:191:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:189:13-49
+activity#com.hyphenate.chatuidemo.ui.PublicGroupsActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:194:9-198:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:196:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:198:13-52
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:197:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:195:13-52
+activity#com.hyphenate.chatuidemo.ui.PublicChatRoomsActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:199:9-203:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:201:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:203:13-52
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:202:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:200:13-55
+activity#com.hyphenate.chatuidemo.ui.VoiceCallActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:206:9-210:51
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:209:13-49
+	android:launchMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:208:13-44
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:210:13-48
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:207:13-49
+activity#com.hyphenate.chatuidemo.ui.VideoCallActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:212:9-217:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:216:13-49
+	android:launchMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:215:13-44
+	android:configChanges
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:214:13-74
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:217:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:213:13-49
+activity#com.hyphenate.chatuidemo.conference.ConferenceActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:219:9-225:50
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:224:13-49
+	android:launchMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:222:13-44
+	android:configChanges
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:221:13-74
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:225:13-48
+	android:taskAffinity
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:223:13-41
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:220:13-58
+activity#com.hyphenate.chatuidemo.conference.ConferenceInviteActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:227:9-232:54
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:230:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:232:13-52
+	android:configChanges
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:229:13-74
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:231:13-48
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:228:13-64
+activity#com.hyphenate.chatuidemo.ui.GroupSimpleDetailActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:235:9-238:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:237:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:238:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:236:13-57
+activity#com.hyphenate.chatuidemo.ui.GroupBlacklistActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:240:9-243:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:242:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:243:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:241:13-54
+activity#com.hyphenate.chatuidemo.ui.GroupSearchMessageActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:244:9-248:58
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:246:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:248:13-55
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:247:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:245:13-58
+activity#com.hyphenate.chatuidemo.ui.PublicGroupsSeachActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:249:9-252:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:251:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:252:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:250:13-57
+activity#com.hyphenate.chatuidemo.ui.EditActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:253:9-257:58
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:255:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:257:13-55
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:256:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:254:13-44
+activity#com.hyphenate.chatuidemo.ui.SharedFilesActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:258:9-261:15
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:259:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:260:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:258:19-57
+activity#com.hyphenate.easeui.ui.EaseShowVideoActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:262:9-266:63
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:264:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:266:13-60
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:265:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:263:13-73
+activity#com.hyphenate.easeui.ui.EaseDingMsgSendActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:268:9-272:63
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:270:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:272:13-60
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:271:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:269:13-75
+activity#com.hyphenate.easeui.ui.EaseDingAckUserListActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:274:9-278:63
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:276:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:278:13-60
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:277:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:275:13-79
+activity#com.hyphenate.chatuidemo.ui.ImageGridActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:280:9-284:63
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:282:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:284:13-60
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:283:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:281:13-49
+activity#com.hyphenate.chatuidemo.ui.RecorderVideoActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:285:9-289:63
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:287:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:289:13-60
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:288:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:286:13-53
+activity#com.hyphenate.chatuidemo.ui.DiagnoseActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:291:9-295:63
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:293:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:295:13-60
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:294:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:292:13-48
+activity#com.hyphenate.chatuidemo.ui.MultiDeviceActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:296:9-299:68
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:297:19-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:299:19-66
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:298:19-58
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:296:19-57
+activity#com.hyphenate.chatuidemo.ui.NamePasswordActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:300:9-302:60
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:301:19-55
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:302:19-58
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:300:19-58
+activity#com.hyphenate.chatuidemo.ui.OfflinePushNickActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:305:9-309:63
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:307:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:309:13-60
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:308:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:306:13-55
+activity#com.hyphenate.chatuidemo.ui.RobotsActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:311:9-315:63
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:313:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:315:13-60
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:314:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:312:13-46
+activity#com.hyphenate.chatuidemo.ui.UserProfileActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:317:9-320:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:319:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:320:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:318:13-51
+activity#com.hyphenate.chatuidemo.ui.SetServersActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:321:9-324:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:323:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:324:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:322:13-50
+activity#com.hyphenate.chatuidemo.ui.OfflinePushSettingsActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:325:9-328:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:327:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:328:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:326:13-59
+activity#com.hyphenate.chatuidemo.ui.CallOptionActivity
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:329:9-332:55
+	android:screenOrientation
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:331:13-49
+	android:theme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:332:13-52
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:330:13-50
+receiver#com.hyphenate.chatuidemo.receiver.StartServiceReceiver
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:335:9-342:20
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:335:19-64
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:336:13-341:29
+	android:priority
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:336:28-51
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:337:17-79
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:337:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:338:17-82
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:338:25-79
+service#com.hyphenate.chatuidemo.fcm.EMFCMMSGService
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:345:9-349:19
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:345:18-53
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:346:13-348:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:347:17-78
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:347:25-75
+service#com.hyphenate.chatuidemo.fcm.EMFCMTokenRefreshService
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:351:9-355:19
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:351:18-62
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:352:13-354:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:353:17-80
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:353:25-77
+service#com.xiaomi.mipush.sdk.PushMessageHandler
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:359:9-363:46
+	android:enabled
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:361:13-35
+	android:exported
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:362:13-36
+	tools:ignore
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:363:13-43
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:360:13-68
+service#com.xiaomi.mipush.sdk.MessageHandleService
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:364:9-366:38
+	android:enabled
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:366:13-35
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:365:13-70
+receiver#com.hyphenate.chat.EMMipushReceiver
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:368:9-381:20
+	android:exported
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:370:13-36
+	tools:ignore
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:371:13-44
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:369:13-63
+intent-filter#action:name:com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:372:13-374:29
+action#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:373:17-76
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:373:25-73
+intent-filter#action:name:com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:375:13-377:29
+action#com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:376:17-76
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:376:25-73
+intent-filter#action:name:com.xiaomi.mipush.ERROR
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:378:13-380:29
+action#com.xiaomi.mipush.ERROR
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:379:17-66
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:379:25-63
+receiver#com.hyphenate.chatuidemo.receiver.HMSPushReceiver
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:388:9-399:20
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:388:19-59
+intent-filter#action:name:com.huawei.android.push.intent.CLICK+action:name:com.huawei.android.push.intent.RECEIVE+action:name:com.huawei.android.push.intent.REGISTRATION+action:name:com.huawei.intent.action.PUSH_STATE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:389:13-398:29
+action#com.huawei.android.push.intent.REGISTRATION
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:391:17-85
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:391:25-83
+action#com.huawei.android.push.intent.RECEIVE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:393:17-80
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:393:25-78
+action#com.huawei.android.push.intent.CLICK
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:395:17-78
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:395:25-76
+action#com.huawei.intent.action.PUSH_STATE
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:397:17-77
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:397:25-75
+meta-data#EASEMOB_APPKEY
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:403:9-405:76
+	android:value
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:405:13-73
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:404:13-42
+service#com.hyphenate.chat.EMChatService
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:407:9-410:46
+	android:exported
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:409:13-36
+	tools:ignore
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:410:13-43
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:408:13-60
+service#com.hyphenate.chat.EMJobService
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:411:9-414:72
+	android:exported
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:413:13-36
+	android:permission
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:414:13-69
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:412:13-59
+receiver#com.hyphenate.chat.EMMonitorReceiver
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:417:9-428:20
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:417:19-70
+intent-filter#action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:418:13-422:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:419:17-80
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:419:25-77
+data
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:421:17-50
+	android:scheme
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:421:23-47
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.USER_PRESENT
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:424:13-427:29
+action#android.intent.action.USER_PRESENT
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:426:17-77
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:426:25-74
+service#com.baidu.location.f
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:431:9-434:41
+	android:process
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:434:13-38
+	android:enabled
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:433:13-35
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:432:13-48
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:435:9-437:64
+	android:value
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:437:13-61
+	android:name
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:436:13-52
+uses-sdk
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+MERGED from [:easeui] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\easeui\easeui\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:easeui] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\easeui\easeui\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\298258fca981212120fad45f3d94afa4\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\298258fca981212120fad45f3d94afa4\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.0.aar\2d66cde7d11cd4bfaa82086699b22253\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.0.aar\2d66cde7d11cd4bfaa82086699b22253\AndroidManifest.xml:17:5-43
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\8ff6bdb7b926f8bdd1598a43e267044d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\8ff6bdb7b926f8bdd1598a43e267044d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\9e6f0edb01da220621f0f85227dbaa40\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\9e6f0edb01da220621f0f85227dbaa40\AndroidManifest.xml:5:5-7:41
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.0.aar\e475ef0dc6a3dded07730eb77e95a7e2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.0.aar\e475ef0dc6a3dded07730eb77e95a7e2\AndroidManifest.xml:4:5-43
+MERGED from [cn.smssdk:SMSSDK:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\SMSSDK-3.2.1.1.aar\da84e300a0aa9fbc0792e84f469c669a\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.smssdk:SMSSDK:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\SMSSDK-3.2.1.1.aar\da84e300a0aa9fbc0792e84f469c669a\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\ShortMessageSDKGUI-3.2.1.1.aar\0cbecee9d27037834ed8acd498c406dc\AndroidManifest.xml:8:5-11:45
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\ShortMessageSDKGUI-3.2.1.1.aar\0cbecee9d27037834ed8acd498c406dc\AndroidManifest.xml:8:5-11:45
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\c9a008ae065602348209b878b33bb429\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\c9a008ae065602348209b878b33bb429\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\22f6f74faed79a72a07a13ec75aa98de\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\22f6f74faed79a72a07a13ec75aa98de\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\004dc1732def9d5dab6e5f8255d4382a\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\004dc1732def9d5dab6e5f8255d4382a\AndroidManifest.xml:17:5-43
+MERGED from [com.huawei.android.hms:push:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\push-2.6.0.301.aar\9d29fce60b6f215b785cd4c650807947\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.android.hms:push:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\push-2.6.0.301.aar\9d29fce60b6f215b785cd4c650807947\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\587fa2e97d9f95c35ef5206807a14aee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\587fa2e97d9f95c35ef5206807a14aee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c498dcfb218b2260b377b583947c107\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c498dcfb218b2260b377b583947c107\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\46a3bf87bee01cf216cf6f7c0e108f94\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\46a3bf87bee01cf216cf6f7c0e108f94\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f03b27ad88d3f31e7d0379c3dba9d9fa\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f03b27ad88d3f31e7d0379c3dba9d9fa\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\67d605fd7e0c5e37c641c53bc46a1ad3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\67d605fd7e0c5e37c641c53bc46a1ad3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ea65133f5b238aa610ae7a4a5c7aa733\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ea65133f5b238aa610ae7a4a5c7aa733\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\f7b0b13c71212ff3ef1e9f781cd2a862\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\f7b0b13c71212ff3ef1e9f781cd2a862\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\69b6b9b8dc2c6a4c74d3578459096c7a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\69b6b9b8dc2c6a4c74d3578459096c7a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [cn.smssdk:ShortMessageSDKGUI:3.2.1.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\ShortMessageSDKGUI-3.2.1.1.aar\0cbecee9d27037834ed8acd498c406dc\AndroidManifest.xml:11:9-42
+	android:targetSdkVersion
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.0.aar\2d66cde7d11cd4bfaa82086699b22253\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.0.aar\2d66cde7d11cd4bfaa82086699b22253\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.0.aar\2d66cde7d11cd4bfaa82086699b22253\AndroidManifest.xml:23:18-87
+meta-data#com.huawei.hms.client.appid
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:9-27:46
+	android:value
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-55
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:9-33:50
+	android:grantUriPermissions
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-79
+	android:exported
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-73
+provider#com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:9-39:50
+	android:grantUriPermissions
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:39:13-47
+	android:authorities
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:13-82
+	android:exported
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-83
+activity#com.huawei.android.hms.agent.common.HMSAgentActivity
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:41:9-51:20
+	android:excludeFromRecents
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:44:13-46
+	android:hardwareAccelerated
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:46:13-47
+	android:exported
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:45:13-37
+	android:configChanges
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:43:13-92
+	android:theme
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:13-61
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:42:13-80
+meta-data#hwc-theme
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-50:77
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:17:13-19:77
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:17:13-19:77
+	android:value
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:17-74
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:17-41
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-63:20
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:10:9-20:20
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\base-2.6.0.301.aar\357b9c014c2ee81f7237bd95fec95605\AndroidManifest.xml:10:9-20:20
+	android:excludeFromRecents
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-46
+	android:hardwareAccelerated
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:58:13-47
+	android:exported
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:13-37
+	android:configChanges
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-92
+	android:theme
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:13-61
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-66
+activity#com.huawei.updatesdk.service.otaupdate.AppUpdateActivity
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-73:20
+	android:exported
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-37
+	android:configChanges
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-59
+	android:theme
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-84
+activity#com.huawei.updatesdk.support.pm.PackageInstallerActivity
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:75:9-83:20
+	android:exported
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-37
+	android:configChanges
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:13-74
+	android:theme
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:76:13-84
+receiver#com.huawei.hms.support.api.push.PushEventReceiver
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:9-89:20
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:19-83
+intent-filter#action:name:com.huawei.intent.action.PUSH
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-88:29
+action#com.huawei.intent.action.PUSH
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:17-72
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:25-69
+service#com.huawei.updatesdk.service.deamon.download.DownloadService
+ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:9-93:40
+	android:exported
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from [:hmspush] C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\hmspush\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-88
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\85aedbe53a4c7ff9ad2fb0646338185e\AndroidManifest.xml:19:19-85
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\c9a008ae065602348209b878b33bb429\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\587fa2e97d9f95c35ef5206807a14aee\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\587fa2e97d9f95c35ef5206807a14aee\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c498dcfb218b2260b377b583947c107\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2c498dcfb218b2260b377b583947c107\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\46a3bf87bee01cf216cf6f7c0e108f94\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\46a3bf87bee01cf216cf6f7c0e108f94\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f03b27ad88d3f31e7d0379c3dba9d9fa\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\f03b27ad88d3f31e7d0379c3dba9d9fa\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\67d605fd7e0c5e37c641c53bc46a1ad3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\67d605fd7e0c5e37c641c53bc46a1ad3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ea65133f5b238aa610ae7a4a5c7aa733\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ea65133f5b238aa610ae7a4a5c7aa733\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\f7b0b13c71212ff3ef1e9f781cd2a862\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\f7b0b13c71212ff3ef1e9f781cd2a862\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\69b6b9b8dc2c6a4c74d3578459096c7a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\69b6b9b8dc2c6a4c74d3578459096c7a\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\c9a008ae065602348209b878b33bb429\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\c9a008ae065602348209b878b33bb429\AndroidManifest.xml:27:13-51
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\a78c2ad33fd65a76dd6f056de8fa1c5d\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\4f735172959b31e676a92bf6f638926e\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:24:17-71
+permission#com.hyphenate.chatuidemo.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:26:22-76
+uses-permission#com.hyphenate.chatuidemo.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.hyphenate.chatuidemo
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:33:27-58
+category#com.hyphenate.chatuidemo
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\da6d57854ca12790bc8a93a181b4a94c\AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.0.aar\1340d930a96b35c188cd2b3cef5130e6\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\004dc1732def9d5dab6e5f8255d4382a\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\004dc1732def9d5dab6e5f8255d4382a\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\liuzh\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\004dc1732def9d5dab6e5f8255d4382a\AndroidManifest.xml:20:20-65

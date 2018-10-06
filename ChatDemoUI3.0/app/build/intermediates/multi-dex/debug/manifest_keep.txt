@@ -1,0 +1,3 @@
+# Referenced at C:\Users\liuzh\Desktop\SmartDistributionTerminal - 2\ChatDemoUI3.0\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:30
+-keep class com.hyphenate.chatuidemo.DemoApplication { <init>(...); }
+

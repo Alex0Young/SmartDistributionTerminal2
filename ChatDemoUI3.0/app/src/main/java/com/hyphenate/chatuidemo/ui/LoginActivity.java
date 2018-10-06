@@ -39,6 +39,9 @@ import com.hyphenate.chatuidemo.R;
 import com.hyphenate.chatuidemo.db.DemoDBManager;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Login screen
  * 
@@ -51,6 +54,7 @@ public class LoginActivity extends BaseActivity {
 
 	private boolean progressShow;
 	private boolean autoLogin = false;
+	public final static String PHONE_PATTERN = "^((13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -109,10 +113,29 @@ public class LoginActivity extends BaseActivity {
 	}
 
 	/**
+	 * 正则表达式匹配判断
+	 * @param patternStr 匹配规则
+	 * @param input 需要做匹配操作的字符串
+	 * @return true if matched, else false
+	 */
+	public static boolean isPhoneNumber(String patternStr,CharSequence input){
+		Pattern pattern = Pattern.compile(patternStr);
+		Matcher matcher = pattern.matcher(input);
+
+		if(matcher.find()){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+
+	/**
 	 * login
 	 * 
 	 * @param view
 	 */
+
 	public void login(View view) {
 		if (!EaseCommonUtils.isNetWorkConnected(this)) {
 			Toast.makeText(this, R.string.network_isnot_available, Toast.LENGTH_SHORT).show();
@@ -127,6 +150,11 @@ public class LoginActivity extends BaseActivity {
 		}
 		if (TextUtils.isEmpty(currentPassword)) {
 			Toast.makeText(this, R.string.Password_cannot_be_empty, Toast.LENGTH_SHORT).show();
+			return;
+		}
+
+		if(!isPhoneNumber(PHONE_PATTERN,currentUsername)){
+			Toast.makeText(this, R.string.not_phone_number, Toast.LENGTH_SHORT).show();
 			return;
 		}
 
