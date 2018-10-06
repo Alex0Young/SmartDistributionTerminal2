@@ -52,4 +52,5 @@
 
     <color name="em_indicator_select">#9E9E9E</color>
     <color name="em_indicator_normal">#1AFFFFFF</color>
+    <color name="white">#fff</color>
 </resources>

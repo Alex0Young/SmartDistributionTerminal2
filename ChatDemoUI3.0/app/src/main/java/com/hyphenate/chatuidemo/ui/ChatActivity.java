@@ -3,6 +3,8 @@ package com.hyphenate.chatuidemo.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.util.Log;
+
 import com.hyphenate.chatuidemo.R;
 import com.hyphenate.chatuidemo.runtimepermissions.PermissionsManager;
 import com.hyphenate.easeui.ui.EaseChatFragment;
@@ -28,6 +30,7 @@ public class ChatActivity extends BaseActivity{
         chatFragment = new ChatFragment();
         //pass parameters to chat fragment
         chatFragment.setArguments(getIntent().getExtras());
+        //Log.d("ChatFragment", "onCreate: "+getIntent().getExtras());
         getSupportFragmentManager().beginTransaction().add(R.id.container, chatFragment).commit();
         
     }

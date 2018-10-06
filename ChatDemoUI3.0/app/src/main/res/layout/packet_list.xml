@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/top_bar_normal_bg"
+        android:gravity="center_vertical" >
+
+        <RelativeLayout
+            android:id="@+id/left_layout"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/ease_common_tab_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/left_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="快递列表"/>
+
+        <RelativeLayout
+            android:id="@+id/right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ease_common_tab_bg" >
+
+            <ImageView
+                android:id="@+id/right_image"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/edit_white"
+                android:contentDescription="二维码"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_packet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000"/>
+
+</LinearLayout>

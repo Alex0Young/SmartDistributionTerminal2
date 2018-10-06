@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="49dp">
+
+    <Button
+        android:id="@+id/item_footTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/my_packagebtn"
+        android:text="一键提醒"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/footroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/item_footTv"
+        android:hint="   " />
+
+    <Button
+        android:id="@+id/item_footbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/footroom"
+        android:background="@drawable/my_packagebtn"
+        android:text="联系收件人"
+        android:textSize="15dp"/>
+
+</RelativeLayout>

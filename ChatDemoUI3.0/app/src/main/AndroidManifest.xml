@@ -42,7 +42,8 @@
         android:name=".DemoApplication"
         android:allowBackup="true"
         android:icon="@drawable/em_logo_uidemo"
-        android:label="@string/app_name">
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
 
         <!-- 适配Android 7.0, 需要将下方的com.hyphenate.chatuidemo替换为你的app包名 -->
         <provider
@@ -73,13 +74,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".ui.EMChatActivity" />
         <!-- 登陆 -->
         <activity
             android:name=".ui.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustResize|stateVisible" />
+<!--edit notice -->
+        <activity android:name=".ui.NewNoticeActivity"/>
 
         <!-- SDK接口诊断 -->
         <activity

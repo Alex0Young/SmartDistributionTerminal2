@@ -72,6 +72,8 @@ public class MainActivity extends BaseActivity {
 	public boolean isConflict = false;
 	// user account was removed
 	private boolean isCurrentAccountRemoved = false;
+
+	private PacketsFragment packetsFragment;
 	
 
 	/**
@@ -125,13 +127,15 @@ public class MainActivity extends BaseActivity {
 
 		inviteMessgeDao = new InviteMessgeDao(this);
 		UserDao userDao = new UserDao(this);
+
+		packetsFragment = new PacketsFragment(); //物流界面
 		conversationListFragment = new ConversationListFragment();
 		contactListFragment = new ContactListFragment();
 		SettingsFragment settingFragment = new SettingsFragment();
-		fragments = new Fragment[] { conversationListFragment, contactListFragment, settingFragment};
+		fragments = new Fragment[] {  conversationListFragment, contactListFragment, settingFragment,packetsFragment};
 
-		getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, conversationListFragment)
-				.add(R.id.fragment_container, contactListFragment).hide(contactListFragment).show(conversationListFragment)
+		getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, conversationListFragment).add(R.id.fragment_container,packetsFragment)
+				.add(R.id.fragment_container, contactListFragment).hide(contactListFragment).show(packetsFragment).hide(conversationListFragment)
 				.commit();
 
 		//register broadcast receiver to receive the change of group from DemoHelper
@@ -185,7 +189,7 @@ public class MainActivity extends BaseActivity {
 		mTabs[2] = (Button) findViewById(R.id.btn_setting);
 		mTabs[3] = (Button) findViewById(R.id.btn_kuaidi);
 		// select first tab
-		mTabs[0].setSelected(true);
+		mTabs[3].setSelected(true);
 	}
 
 	/**
@@ -204,10 +208,10 @@ public class MainActivity extends BaseActivity {
 		case R.id.btn_setting:
 			index = 2;
 			break;
-		/*	case R.id.btn_kuaidi:
+			case R.id.btn_kuaidi:
 				index = 3;
 				break;
-				*/
+
 		}
 		if (currentTabIndex != index) {
 			FragmentTransaction trx = getSupportFragmentManager().beginTransaction();

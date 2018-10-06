@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/item_Iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/item_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_Iv"
+        android:hint="        "
+        />
+
+    <TextView
+        android:id="@+id/item_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_no"
+        android:textColor="#000000"
+        android:textSize="17dip"/>
+    <TextView
+        android:id="@+id/item_pTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_Tv"
+        android:layout_toRightOf="@id/item_no"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/item_recvname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_no"
+        android:layout_below="@+id/item_pTv"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/item_sendname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_no"
+        android:layout_below="@+id/item_recvname"
+        android:textColor="#000000"/>
+</RelativeLayout>
