@@ -248,7 +248,16 @@ public class PacketsFragment extends android.support.v4.app.Fragment {
                 }
             });
         }
-
+        else {
+            new Thread() {
+                public void run() {
+                    Message msg = new Message();
+                    msg.obj = "未编辑提醒内容";
+                    // 把消息发送到主线程，在主线程里现实Toast
+                    handler.sendMessage(msg);
+                };
+            }.start();
+        }
 
     }
 
